@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
         boardState = convertBoardTo2DArray(board)
 
         val engine = StockfishEngine(this)
-        val llm = LLMHelper("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")
+        val llm = LLMHelper("")// anyone who downloads app put openai api key here;
 
         val chatResponse = mutableStateOf("")
 
